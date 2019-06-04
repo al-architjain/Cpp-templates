@@ -16,7 +16,6 @@ vector<int> computePrefix(string pattern){
 }
 
 
-
 void KMP(string str,string pat){
     int n = str.size();
     int m = pat.size();
