@@ -3,7 +3,7 @@
 #include<string>
 using namespace std;
 
-int a_s = 26;   // Alphabet Size
+const int a_s = 26;   // Alphabet Size
 
 struct TrieNode{
     TrieNode* children[a_s];
